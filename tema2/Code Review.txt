@@ -1,0 +1,37 @@
+-variabile denumite gresit: in loc de valoare_imprumut ar trebui valoareImprumut, tip_cont -> tipCont - meaningful names
+-variabilele ar trebui declarate fiecare pe linia sa si ar trebui sa fie private - classes and interfaces
+-constantele STANDARD, BUGET, PREMIUM, SUPER_PREMIUM ar trebui puse intr-un enum - enums and annotations
+-variabila tipCont ar trebui schimbata din int in enumul care contine constantele
+-numele metodei imprumut ar trebui schimbat in getValoareImprumut iar in return ar trebui pus this.valoareImprumut - meaningful names
+-in metoda getRata la functia System.out.println ar trebui lasat spatiu intre operator si stringuri si de asemenea - formatting
+	ar trebui folosit this.rata in loc de rata - meaningful names
+-in metoda getRataLunara ar trebui lasat spatiu intre operator si operanzi si ar trebui folosit this la operanzi - formatting
+-lipsesc geterii pentru zileActiv si TipCont
+-getterii ar trebui doar sa intoarca valoarea fara sa o afiseze - functions do one thing
+-in metoda setValoare ar trebui schimbat numele in setValoareImprumut, - meaningful names
+	la if ar trebui pus spatiu intre operator si operanzi, -formatting
+	expresia din if ar trebui inconjurata de acolade pentru a specifica blocul de cod, -formatting
+	acolada care semnalizeaza inceputul blocului de cod else ar trebui pusa pe aceeasi linie, - formatting
+	ar trebui inlocuit if/else cu operatorul ternar
+-ar trebui lasat o linie libera intre metoda setValoare si metoda to_string - formatting
+-metoda to_string ar trebui redenumita in toString - meaningful names
+-metoda toString ar trebui sa aibe @Override - general programming
+-in metoda to_string ar trebui lasate spatii intre operatori si operanzi, - formatting
+	fiecare variabila ar trebui pusa pe o linie separata - formatting
+	ar trebui folositi getterii in locul variabilelor
+-ar trebui lasat o linie libera intre metoda to_string si metoda print - formatting
+-in metoda print variabila vb nu este folosita si ar trebui eliminata - functions
+-metoda calculeaza ar trebui despartita in 2 metode separate : una care calculeaza valoarea comisionului fiecarui cont 
+	si cealalta care calculeaza comisionul total - functions (do one thing)
+-la metoda calculeaza acolada de inceput ar trebui pusa la un spatiu distanta de header, - formatting
+	variabila cont si i din interiorul for-ului ar trebui puse la un singur spatiu distanta de tip, - formatting
+	acolada de inceput a blocului for ar trebui pusa la un singur spatiu distanta, - formatting
+	ar trebui creeat enum cu denumirea Account, - enums and annotations
+	ar trebui lasat un singur spatiu intre operatori si operanzi, - formatting
+	nu ar trebui pus comentariu in paranteza din interiorul if-ului, - comments
+	if-ul ar trebui sa aibe acolade care desemneaza blocul de cod, - formatting
+	nu ar trebui hardcodat valoarea .0125 si 365 (ar trebui folosite variabile/constante)
+-la constructorul Cont ar trebui folositi setteri in loc de this. variabila,
+	ar trebui lasat spatiu intre operatori si operanzi la conditia if-ului, - formatting
+	ar trebui folosite acolade pentru expresia if-ului, - formatting
+	acolada de inceput a else-ului ar trebui pusa pe aceeasi linie la un spatiu distanta, - formatting
